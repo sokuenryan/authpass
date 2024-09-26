@@ -1,4 +1,14 @@
 # A Simple Login/Register Setup
 
-This was designed to make website and web applications easier to construct on a more efficient level. 
-It's a simple login and register / signup configuration that allows me/you to bypass having to create the Authentication over and over again from scratch. 
+**REUSE DON'T REDO**
+A simple but powerful statement. It's what lead me to create this login/register template so that I don't have to remake one every time I'm beginning a new project.
+
+**User Authentication**
+I created this with Firebase running the Authentication system. 
+
+**A Watched Pot Never Boils**
+This is basically just a boiler template. But it not going to be of much use if it don't get used. So, let's get this started!
+
+***Here's what it looks like***
+![Alt text](./public/login.png)
+![Alt text](./public/register.png)
