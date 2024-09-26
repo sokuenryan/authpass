@@ -30,3 +30,6 @@ dist-ssr
 /.firebase/
 firebase.json
 .firebaserc
+
+# Ignore Firebase config file
+firebase-config.js
