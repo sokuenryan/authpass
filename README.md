@@ -11,4 +11,6 @@ This is basically just a boiler template. But it not going to be of much use if 
 
 ***Here's what it looks like***
 ![Alt text](./public/login.png)
+
+
 ![Alt text](./public/register.png)
