@@ -14,3 +14,7 @@ This is basically just a boiler template. But it not going to be of much use if 
 
 # Register Page of Awesomeness
 ![Alt text](./public/register.png)
+
+# DISCLAIMER: 
+**There is purposefully barely any CSS styling involved on purpose because it's going to be changed up later, anyway.**
+*Of course; any thoughts, comments, or ideas are welcome if you have any*
