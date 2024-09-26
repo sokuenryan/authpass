@@ -9,8 +9,8 @@ I created this with Firebase running the Authentication system.
 **A Watched Pot Never Boils**
 This is basically just a boiler template. But it not going to be of much use if it don't get used. So, let's get this started!
 
-***Here's what it looks like***
+# Login Page of Awesomeness
 ![Alt text](./public/login.png)
 
-
+# Register Page of Awesomeness
 ![Alt text](./public/register.png)
