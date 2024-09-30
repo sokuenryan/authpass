@@ -2,6 +2,7 @@
 ### A Simple Login/Register Setup
 This is a sign-in template built with Firebase Authentication for security. The template allows users to sign up, log in, and manage authentication easily. You can install and customize it to suit your needs.
 
+### Inspiration
 **Based on the principle** ***RE-USE DON'T REDO***
 A simple but powerful statement. It's what lead me to create this login/register template so that I don't have to remake one every time I'm beginning a new project.
 
