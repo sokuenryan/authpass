@@ -64,10 +64,10 @@ Click "Get started" and enable "Email/Password" sign-in method under the "Sign-i
 
 ### Configure Firebase in the Project
   1. In the root of your project, create a .env file to store your Firebase configuration:
-     ```bash
-      touch.env
+     ```
+     touch.env
   2. Then, open the .env file and add your Firebase configuration:
-     ```bash
+     ```
     VITE_FIREBASE_API_KEY=your-api-key
     VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
     VITE_FIREBASE_PROJECT_ID=your-project-id
@@ -79,8 +79,8 @@ Click "Get started" and enable "Email/Password" sign-in method under the "Sign-i
 
 # Starting the Application
 
-After configuring Firebase, you can start the application by running:
-    ```bash
+  After configuring Firebase, you can start the application by running:
+    ```
     
     npm run dev
 
@@ -210,3 +210,5 @@ MIT License
 - Encourage users to follow best practices by using their own Firebase keys instead of relying on your credentials.
 
 With this setup, other developers can easily install and configure their own Firebase projects, making your template reusable and secure.
+
+
