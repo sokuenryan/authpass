@@ -29,7 +29,7 @@ This is just a boiler template. But it not going to be of much use if it don't g
 ## Installation
 
   1. **Clone the Repository**
-       First, clone this repository to your local machine:                                  copy code
+       First, clone this repository to your local machine:
      ```bash 
       git clone https://github.com/your-username/Auth-FirePass.git
 
@@ -42,9 +42,8 @@ This is just a boiler template. But it not going to be of much use if it don't g
     Run the following command to install all necessary dependencies, including Firebase:
      ```bash
          npm install
-
-5. Set Up Firebase
-
+     
+# Setting Up Firebase
 ***This template uses Firebase Authentication with your own Firebase credentials. Follow the steps below to set up your Firebase project.***
 
 ## Firebase Setup Instructions:
@@ -63,32 +62,28 @@ Click "Get started" and enable "Email/Password" sign-in method under the "Sign-i
    2. Scroll down to the "Your apps" section and select the </> (Web) icon to create a new web app.
    3. Firebase will provide a configuration object, which you'll need for the next step.
 
-# 5. Configure Firebase in the Project
-
-**In the root of your project, create a .env file to store your Firebase configuration:**
-    ```bash
-      
+### Configure Firebase in the Project
+  1. In the root of your project, create a .env file to store your Firebase configuration:
+     ```bash
       touch.env
-
-Then, open the .env file and add your Firebase configuration:
-    ```bash
-    
-            VITE_FIREBASE_API_KEY=your-api-key
-            VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
-            VITE_FIREBASE_PROJECT_ID=your-project-id
-            VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-            VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-            VITE_FIREBASE_APP_ID=your-app-id  
+  2. Then, open the .env file and add your Firebase configuration:
+     ```bash
+    VITE_FIREBASE_API_KEY=your-api-key
+    VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+    VITE_FIREBASE_PROJECT_ID=your-project-id
+    VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+    VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+    VITE_FIREBASE_APP_ID=your-app-id  
  
-Replace the placeholders (e.g., your-api-key) with the values from your Firebase web app configuration.
+  3. Replace the placeholders (e.g., your-api-key) with the values from your Firebase web app configuration.
 
-# 6. Start the Application
+# Starting the Application
 
-**After configuring Firebase, you can start the application by running:**
+After configuring Firebase, you can start the application by running:
     ```bash
     
-      npm run dev
-      
+    npm run dev
+
 This will start the development server, and you can now access the sign-in page locally.
 
 # Usage
