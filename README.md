@@ -30,7 +30,7 @@ This is just a boiler template. But it not going to be of much use if it don't g
 
   1. **Clone the Repository**
        First, clone this repository to your local machine:
-     ```bash
+     ```bash copy code
       git clone https://github.com/your-username/Auth-FirePass.git
 
   2. Navigate to the Project Directory
