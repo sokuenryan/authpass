@@ -34,16 +34,18 @@ This is basically just a boiler template. But it not going to be of much use if 
 
   2. Navigate to the Project Directory
        Move into the project folder:
-       cd sign-in-template
+      ```bash
+         cd sign-in-template
 
-  4. Install Dependencies
-      Run the following command to install all necessary dependencies, including Firebase:
+  3. Install Dependencies
+    Run the following command to install all necessary dependencies, including Firebase:
 
-      npm install
+    ```bash
+     npm install
 
-4. Set Up Firebase
+5. Set Up Firebase
 
-This template uses Firebase Authentication with your own Firebase credentials. Follow the steps below to set up your Firebase project.
+***This template uses Firebase Authentication with your own Firebase credentials. Follow the steps below to set up your Firebase project.***
 
 ## Firebase Setup Instructions:
 ### Create a Firebase Project:
@@ -63,18 +65,19 @@ Click "Get started" and enable "Email/Password" sign-in method under the "Sign-i
 
 # 5. Configure Firebase in the Project
 
-In the root of your project, create a .env file to store your Firebase configuration:
-
-touch .env
+**In the root of your project, create a .env file to store your Firebase configuration:**
+  ```bash
+  touch.env
 
 Then, open the .env file and add your Firebase configuration:
 
-VITE_FIREBASE_API_KEY=your-api-key
-VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
-VITE_FIREBASE_PROJECT_ID=your-project-id
-VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-VITE_FIREBASE_APP_ID=your-app-id
+  ```bash
+    VITE_FIREBASE_API_KEY=your-api-key
+    VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
+    VITE_FIREBASE_PROJECT_ID=your-project-id
+    VITE_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+    VITE_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
+    VITE_FIREBASE_APP_ID=your-app-id
 
 Replace the placeholders (e.g., your-api-key) with the values from your Firebase web app configuration.
 
