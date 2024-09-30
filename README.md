@@ -30,17 +30,15 @@ This is just a boiler template. But it not going to be of much use if it don't g
 
   1. **Clone the Repository**
        First, clone this repository to your local machine:
-      bash
-      copy code
-     ```
+     ```bash
       git clone https://github.com/your-username/Auth-FirePass.git
 
-  3. Navigate to the Project Directory
+  2. Navigate to the Project Directory
        Move into the project folder:
       ```bash
          cd sign-in-template
 
-  4. Install Dependencies
+  3. Install Dependencies
     Run the following command to install all necessary dependencies, including Firebase:
      ```bash
          npm install
