@@ -1,4 +1,4 @@
-# AuthFirePass: A Simple Login/Register Setup
+# Auth-FirePass: A Simple Login/Register Setup
 This is a sign-in template built with Firebase Authentication for security. The template allows users to sign up, log in, and manage authentication easily. You can install and customize it to suit your needs.
 
 **Based on the principle** ***RE-USE DON'T REDO***
