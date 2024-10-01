@@ -32,4 +32,4 @@ firebase.json
 .firebaserc
 
 # Ignore Firebase config file
-firebase-config.js
+firebase/firebase-config.js
