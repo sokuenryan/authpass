@@ -37,3 +37,6 @@ After installation, you can use the pre-built login and registration components 
 > **Note**: This section is important for setting up Firebase correctly.
 
 `highlighted
+
+To install, run `npm install auth-pass`. This package supports `bash` and `javascript`.
+
