@@ -25,7 +25,7 @@ A simple but powerful statement. It's what lead me to create this login/register
 
 ## Installation
 
-1. **Clone the Repository**
+**Clone the Repository**
   First, clone this repository to your local machine:
     ```bash
    git clone https://github.com/your-username/sign-in-template.git
@@ -36,11 +36,12 @@ A simple but powerful statement. It's what lead me to create this login/register
     ```bash
     cd name-of-project-dir
 
-4. **Install Dependencies**
+ **Install Dependencies**
    Run the following command to install all necessary dependencies,
-   including Firebase
-   ```bash
-   npm install 
+   including Firebase: 
+    ```bash
+    
+    npm install
 
 ## **Seting Up Firebase**
    This template uses Firebase Authentication with your own Firebase credentials. Follow the steps below to set up your Firebase project.
