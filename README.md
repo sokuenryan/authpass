@@ -28,15 +28,18 @@ A simple but powerful statement. It's what lead me to create this login/register
 1. **Clone the Repository**
 
    First, clone this repository to your local machine:
-   ```bash
+```bash
    git clone https://github.com/your-username/sign-in-template.git
 
-2. **Navigate to the Project Directory**
+
+
+
+3. **Navigate to the Project Directory**
     Move into the project folder:
     ```bash
     cd name-of-project-dir
 
-3. **Install Dependencies**
+4. **Install Dependencies**
    Run the following command to install all necessary dependencies,
    including Firebase
    ```bash
