@@ -18,11 +18,9 @@ A simple but powerful statement. It's what lead me to create this login/register
 ![Alt text](./public/register.png)
 
 
-# ***A Watched Pot Never Boils***
-This is just a boiler template. But it not going to be of much use if it don't get used. 
-***So, let's get this started!***
 
-## Prerequisites
+
+## Pre-Requisites
 
 1. **Node.js**: Ensure that you have Node.js installed on your system. You can download it from [here](https://nodejs.org/).
 2. **Firebase Account**: You'll need to create a Firebase account and set up a Firebase project for managing authentication.
