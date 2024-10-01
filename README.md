@@ -1,6 +1,6 @@
 # AuthPass
 
-AuthPass is a boilerplate package for easily integrating Firebase authentication into your React applications. It provides a simple setup for user authentication with a login and registration page.
+AuthPass is a boiler plate package for easily integrating Firebase authentication into your React applications. It provides a simple setup for user authentication with a login and registration page.
 
 ## Features
 
