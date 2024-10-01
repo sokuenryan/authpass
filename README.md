@@ -1,5 +1,5 @@
 # AuthPass:
-### A Simple Login/Register Setup
+### A Simple Login/Register Boiler Setup
 This is a sign-in template built with [**Firebase Authentication**](https://firebase.google.com/) for security. The template allows users to sign up, log in, and manage authentication easily. You can install and customize it to suit your needs.
 
 ### Inspiration
@@ -23,7 +23,7 @@ A simple but powerful statement. It's what lead me to create this login/register
 ## Pre-Requisites
 
 1. **Node.js**: Ensure that you have Node.js installed on your system. You can download it from [here](https://nodejs.org/).
-2. **Firebase Account**: You'll need to create a Firebase account and set up a Firebase project for managing authentication.
+2. **Firebase Account**: You'll need to create a Firebase account and set up a Firebase project for managing authentication. You can login [here](https://firebase.google.com/)
 
 ## Installation
 
@@ -48,16 +48,16 @@ A simple but powerful statement. It's what lead me to create this login/register
    This template uses Firebase Authentication with your own Firebase credentials. Follow the steps below to set up your Firebase project.
 
   ### Firebase Setup Instructions
-  1. Create a Firebase Project:
+  1. Create a [Firebase Project](https://firebase.google.com/):
       - Go to Firebase Console.
       - Click "Add project" and follow the steps to create a new project.
   2. Enable Authentication:
        - In your Firebase project, navigate to the "Authentication" tab.
-       - Click "Get started" and enable "Email/Password" sign-in method               under the "Sign-in method" tab.
+       - Click "Get started" and enable "Email/Password" sign-in method under the "Sign-in method" tab.
   3. Add Firebase to Your Web App
-       - in the Firebase console, click the gear icon next to "Project               Overview" and select "Project setting."
-       - Scroll down to the "Your apps" section and select the </> (Web)             icon to create a new web app.
-       - Firebase will provide a configuration object, which you'll need             for the next step.
+       - in the Firebase console, click the gear icon next to "Project Overview" and select "Project setting."
+       - Scroll down to the "Your apps" section and select the </> (Web) icon to create a new web app.
+       - Firebase will provide a configuration object, which you'll need for the next step.
 
 5. **Configure Firebase in the Project**
 
