@@ -47,7 +47,7 @@ A simple but powerful statement. It's what lead me to create this login/register
 4. **Set Up Firebase**
    This template uses Firebase Authentication with your own Firebase credentials. Follow the steps below to set up your Firebase project.
 
-  ### Firebase Setup Instructions
+  ## Firebase Setup Instructions
   1. Create a [Firebase Project](https://firebase.google.com/):
       - Go to Firebase Console.
       - Click "Add project" and follow the steps to create a new project.
@@ -68,7 +68,7 @@ A simple but powerful statement. It's what lead me to create this login/register
 
 Then, open the .env file and add your Firebase Configuration: 
     ```bash
-          
+    
     VITE_FIREBASE_API_KEY=your-api-key
     VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
     VITE_FIREBASE_PROJECT_ID=your-project-id
