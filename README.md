@@ -33,10 +33,24 @@ This package is currently at version 0.0.1.
 
 ### Usage
 After installation, you can use the pre-built login and registration components in your React application. Make sure to configure Firebase in the 
+`firebase/firebase-config.js` file to set up your Firebase project. 
 
-> **Note**: This section is important for setting up Firebase correctly.
+### License 
+This project is licensed under the MIT License.
 
-`highlighted
+### Contributing
+Feel free to submit issues or pull request for improvements and new features!
 
-To install, run `npm install auth-pass`. This package supports `bash` and `javascript`.
+
+### Customization
+
+- **Add More Details**: You can expand on sections like Usage or Features depending on what you want to convey to users.
+- **Include Screenshots**: If you have any screenshots of the login/register pages, you can include them to help users visualize the package.
+- **Contributing Guidelines**: If you want to encourage contributions, you might add specific guidelines for contributors.
+
+Feel free to modify any parts to better suit your style or the specifics of your package! If you need more adjustments or additional sections, just let me know!
+
+
+
+
 
