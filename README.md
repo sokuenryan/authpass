@@ -26,15 +26,12 @@ A simple but powerful statement. It's what lead me to create this login/register
 ## Installation
 
 1. **Clone the Repository**
-
-   First, clone this repository to your local machine:
-```bash
+  First, clone this repository to your local machine:
+    ```bash
    git clone https://github.com/your-username/sign-in-template.git
 
 
-
-
-3. **Navigate to the Project Directory**
+ **Navigate to the Project Directory**
     Move into the project folder:
     ```bash
     cd name-of-project-dir
@@ -120,6 +117,9 @@ MIT License
 - Encourage users to follow best practices by using their own Firebase keys instead of relying on your credentials.
 
 With this setup, other developers can easily install and configure their own Firebase projects, making your template reusable and secure.
+
+
+
 
 
 
