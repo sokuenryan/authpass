@@ -18,8 +18,6 @@ A simple but powerful statement. It's what lead me to create this login/register
 ![Alt text](./public/register.png)
 
 
-
-
 ## Pre-Requisites
 
 1. **Node.js**: Ensure that you have Node.js installed on your system. You can download it from [here](https://nodejs.org/).
@@ -44,10 +42,10 @@ A simple but powerful statement. It's what lead me to create this login/register
    ```bash
    npm install 
 
-4. **Set Up Firebase**
+## **Seting Up Firebase**
    This template uses Firebase Authentication with your own Firebase credentials. Follow the steps below to set up your Firebase project.
 
-  ## Firebase Setup Instructions
+### Firebase Setup Instructions
   1. Create a [Firebase Project](https://firebase.google.com/):
       - Go to Firebase Console.
       - Click "Add project" and follow the steps to create a new project.
@@ -59,16 +57,13 @@ A simple but powerful statement. It's what lead me to create this login/register
        - Scroll down to the "Your apps" section and select the </> (Web) icon to create a new web app.
        - Firebase will provide a configuration object, which you'll need for the next step.
 
-5. **Configure Firebase in the Project**
+## **Configure Firebase in the Project**
+  In the root of your project create a .env file to store your Firebase configuration:
+      ```bash
+      
+      touch .env
 
-  In the root of your project create a .env file to store your Firebase configuration: 
-    ```bash
-    
-    touch .env
-
-Then, open the .env file and add your Firebase Configuration: 
-    ```bash
-    
+Then, open the .env file and add your Firebase Configuration:
     VITE_FIREBASE_API_KEY=your-api-key
     VITE_FIREBASE_AUTH_DOMAIN=your-auth-domain
     VITE_FIREBASE_PROJECT_ID=your-project-id
