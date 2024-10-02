@@ -1,4 +1,4 @@
-![AIsketch](./public/ai.sketch.png)
+![AI-Sketch](./public/AI-sketch.png)
 # AuthPass
 
 AuthPass is a boiler plate package for easily integrating Firebase authentication into your React applications. It provides a simple setup for user authentication with a login and registration page.
