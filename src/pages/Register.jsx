@@ -31,7 +31,7 @@ const Register = () => {
             <div className="register-content">
                 <div className="register-title">
                     <div className="register-title--content">
-                        <h2>Let's Be Awesome!!</h2>
+                        <h2>Let's Be Awesome!</h2>
                         <p>Life's better when you know you get to be awesome.</p>
                         <p>Let's get started!</p>
                     </div>
@@ -74,9 +74,9 @@ const Register = () => {
                     </div>
                 </form>
                 <div className="page-switch">
-                    <p>Returning back to the Login Page? <span>Click</span></p>
+                    <p>Going back to awesome login?</p>
                     <Link to="/">
-                        <h6>Here</h6>
+                        <h6>Return to Login</h6>
                     </Link>
                 </div>
             </div>
