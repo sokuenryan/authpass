@@ -66,8 +66,10 @@
   }
   
   .login-btns button {
-    height: 40px;
-    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    width: 85px;
     font-size: 12px;
   }
   
@@ -75,8 +77,8 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-top: 12px;
-    margin-left: 50px;
+    margin-top: 38px;
+    margin-left: 25px;
   }
   
   .login-switch p {
@@ -103,6 +105,11 @@
     border-radius: 4px;
     width: 100%; 
   }
+
+  .password-input-wrapper input {
+    height: 30px;
+    width: 289px;
+  }
   
   .eye-icon {
     position: absolute;
@@ -115,7 +122,6 @@
     font-size: 1.2rem;
     color: #555;
   }
-  
   
   .login-form {
     display: flex;

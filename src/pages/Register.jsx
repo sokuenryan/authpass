@@ -36,8 +36,8 @@ const Register = () => {
             <div className="register-content">
                 <div className="register-title">
                     <div className="register-title--content">
-                        <h2>Let's All be Awesome!!</h2>
-                        <p>Life's better when you know you got Awesomeness</p>
+                        <h2>Let's All Be Awesome!!</h2>
+                        <p>Life's better when you know you get to be awesome.</p>
                         <p>Let's get started!</p>
                     </div>
                 </div>
