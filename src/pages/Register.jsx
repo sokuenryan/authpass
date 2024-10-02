@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { UserPlusIcon } from "@heroicons/react/24/solid";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase/firebase-config";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye, FaEyeSlash, FaUserPlus } from "react-icons/fa";
 
 const Register = () => {
     const [email, setEmail] = useState("");
@@ -68,7 +67,7 @@ const Register = () => {
                     <div className="register-btns">
                         <button type="submit" className="btn btn--dark">
                             <span>Create Account</span>
-                            <UserPlusIcon width={20} />
+                            <FaUserPlus width={20} />
                         </button>
                         {error && <p className="error-message">{error}</p>}
                     </div>

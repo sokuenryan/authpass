@@ -14,7 +14,6 @@
     "auth-pass": "./cli.js"
   },
   "dependencies": {
-    "@heroicons/react": "^2.1.5",
     "copyfiles": "^2.4.1",
     "firebase": "^10.13.2",
     "react": "^18.3.1",
