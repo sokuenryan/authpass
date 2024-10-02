@@ -4,12 +4,12 @@
   import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBy_pj699e28UOgGCRMjvnJIG7nkCOuyS0",
-  authDomain: "authpass-id.firebaseapp.com",
-  projectId: "authpass-id",
-  storageBucket: "authpass-id.appspot.com",
-  messagingSenderId: "556943406652",
-  appId: "1:556943406652:web:46b836b0a03998bd017539"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.appspot.com",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
 };
 
 // Initialize Firebase
