@@ -18,14 +18,23 @@ Register Page
 Before you get started there are a few quick steps you need to do to make sure AuthPass works correctly. 
 
 ### Step 1: Clone the repository
-  Copy the following and past into your terminal: 
-  ```bash
-    git clone https://github.com/sokuenryan/AuthPass.git
-  ```
+  - Go to your specfic file directory
+    ```bash
+      cd path/to/your/directory
+    ```
+  - Copy the following and past into your terminal: 
+    ```bash
+      git clone https://github.com/sokuenryan/AuthPass.git
+    ```
+  - Open AuthPass folder in your directory
+    ```bash
+      cd path/to/your/directory/AuthPass
+    ```
+
 ### Step 2: Run the following commands in your terminal
 AuthPass uses Vite builder and react-icons for icon use. Run the following commands and ensure everything is working correctly. 
 
-```Bash
+```bash
     npm install @vitejs/plugin-react
     npm install react-icons
 ```
