@@ -9,9 +9,6 @@ AuthPass is a boiler plate package for easily integrating **Firebase authenticat
 - **Pre-configured Pages**: Includes pre-built pages for Login and Registration.
 - **Automatic File Setup**: Installing the npm package automatically downloads all necessary files into your project.
 
-![Login-Page](./public/login.png)
-
-![Register-Page](./public/register.png)
 
 ### Firebase Setup
 
