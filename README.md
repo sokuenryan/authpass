@@ -1,7 +1,7 @@
 ![AI-Sketch](./public/AI-sketch.png)
 # AuthPass
 
-AuthPass is a boiler plate package for easily integrating Firebase authentication into your React applications. It provides a simple setup for user authentication with a login and registration page.
+AuthPass is a boiler plate package for easily integrating **Firebase authentication** into your React applications. It provides a simple setup for user authentication with a login and registration page.
 
 ## Features
 
@@ -9,36 +9,9 @@ AuthPass is a boiler plate package for easily integrating Firebase authenticatio
 - **Pre-configured Pages**: Includes pre-built pages for Login and Registration.
 - **Automatic File Setup**: Installing the npm package automatically downloads all necessary files into your project.
 
-## Installation
+![Login-Page](./public/login.png)
 
-  To install AuthPass, run the following command:
-  ```bash
-    npm install auth-pass
-  ```
-This will install AuthPass and automatically create the following directory structure in your project:
-
-```markdown
-- firebase/
-    - firebase-config.js
-- components/
-    - Nav.jsx
-- pages/
-    - Login.jsx
-    - Register.jsx
-    - Homepage.jsx
-    - Error.jsx
-```
-
-### Version
-This package is currently at version 0.0.1.
-
-### Usage
-After installation, you can use the pre-built login and registration components in your React application. Make sure to configure Firebase in the 
-`firebase/firebase-config.js` file to set up your Firebase project. 
-
-Here's a README section you can include in your project that explains the Firebase account requirement and how to set it up for your `AuthPass` project.
-
----
+![Register-Page](./public/register.png)
 
 ### Firebase Setup
 
@@ -52,8 +25,8 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
 - Once your project is created, click **Continue** to open the project dashboard.
 
 #### 2. Add Firebase to Your Web App
-- In your Firebase project, click on the **</> Web** icon to create a new Web app.
-- Register the app with a name (e.g., `AuthPass`), and click **Register App**.
+- In your Firebase project, click on the `</>` (Web) icon to create a new Web app.
+- Register the app with a name of your choice, then click **Register App**.
 - Firebase will provide a configuration object with API keys. Copy this information for the next step.
 
 #### 3. Update `firebase-config.js`
@@ -89,14 +62,13 @@ After setting up Firebase and updating the config file, you're ready to use the 
 
 ---
 
-By following these steps, you'll be able to leverage Firebase's authentication system within the `AuthPass` project.
+By following these steps, you'll be able to leverage Firebase's authentication system within `AuthPass`.
 
 ### License 
 This project is licensed under the MIT License.
 
 ### Contributing
 Feel free to submit issues or pull request for improvements and new features!
-
 
 ### Customization
 
