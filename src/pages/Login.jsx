@@ -71,7 +71,7 @@ const Login = () => {
                     </div>
                     {error && <p className="error-message">{error}</p>}   
                 </form>
-                <div className="login-switch">
+                <div className="page-switch">
                     <p>Want to join the <span>Awesomeness</span>?</p>
                     <Link to="/register">
                         <h6>Create Account</h6>

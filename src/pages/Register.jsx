@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { UserPlusIcon } from "@heroicons/react/24/solid";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase/firebase-config";
-import { LuLogIn } from "react-icons/lu";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Register = () => {
@@ -27,16 +26,12 @@ const Register = () => {
         }
     };
 
-    const handleLoginRedirect = () => {
-        navigate("/"); 
-    };
-
     return (
         <div className="register">
             <div className="register-content">
                 <div className="register-title">
                     <div className="register-title--content">
-                        <h2>Let's All Be Awesome!!</h2>
+                        <h2>Let's Be Awesome!!</h2>
                         <p>Life's better when you know you get to be awesome.</p>
                         <p>Let's get started!</p>
                     </div>
@@ -75,16 +70,15 @@ const Register = () => {
                             <span>Create Account</span>
                             <UserPlusIcon width={20} />
                         </button>
-
-                        <p> or </p>
-                        
-                        <button type="button" className="btn btn--dark" onClick={handleLoginRedirect}>
-                            <span>Login</span>
-                            <LuLogIn />
-                        </button>
                         {error && <p className="error-message">{error}</p>}
                     </div>
                 </form>
+                <div className="page-switch">
+                    <p>Returning back to the Login Page? <span>Click</span></p>
+                    <Link to="/">
+                        <h6>Here</h6>
+                    </Link>
+                </div>
             </div>
         </div>
     );

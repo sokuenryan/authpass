@@ -12,8 +12,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 29px;
     width: 370px;
-    height: 444px;
-    margin-top: 100px;
+    height: 432px;
+    margin-top: 20px;
   }
   
   .login-title {
@@ -71,26 +71,6 @@
     height: 35px;
     width: 85px;
     font-size: 12px;
-  }
-  
-  .login-switch {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 38px;
-    margin-left: 25px;
-  }
-  
-  .login-switch p {
-    font-size: 17px;
-  }
-  
-  .login-switch span {
-    color: hsl(var(--accent))
-  }
-  
-  .login-switch h6 {
-    font-size: 14px;
   }
   
   /* Password styles */

@@ -1,0 +1,19 @@
+.page-switch {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 38px;
+    margin-left: 25px;
+  }
+  
+  .page-switch p {
+    font-size: 17px;
+  }
+  
+  .page-switch span {
+    color: hsl(var(--accent))
+  }
+  
+  .page-switch h6 {
+    font-size: 16px;
+  }
