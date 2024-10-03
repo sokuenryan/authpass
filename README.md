@@ -1,7 +1,7 @@
 ![AI-Sketch](./public/AI-sketch.png)
 # AuthPass
 
-AuthPass is a boiler plate set-up using Firebase Authentication providing a simple setup for user authentication with a pre-built login and registration page.
+`AuthPass` is a boiler plate set-up using `Firebase Authentication` providing a simple setup for user authentication with a pre-built login and registration page.
 
 ## Features
 
@@ -13,14 +13,14 @@ AuthPass is a boiler plate set-up using Firebase Authentication providing a simp
 - **Firebase Account**: Account is free, any other chosen services are subject to cost. Set up is relatively easy. See below for additional set-up information. 
 
   
-Login Page
+### Login Page
 ![Login](./public/login.png)
 
-Register Page
+### Register Page
 ![Register](./public/register.png)
 
 # Starting Set Up
-Before you get started there are a few quick steps you need to do to make sure AuthPass works correctly. 
+Before you get started there are a few quick steps you need to do to make sure `AuthPass` works correctly. 
 
 ### Step 1: Clone the repository
   - Go to your specfic file directory
@@ -45,9 +45,9 @@ AuthPass uses Vite builder and react-icons for icon use. Run the following comma
 ```
 
 # Firebase Setup
-To use the authentication functionality provided by **AuthPass**, you'll need to set up a Firebase account and project. This is required because Firebase Authentication handles the login and registration processes. Follow these simple steps to configure Firebase for your app:
+To use the authentication functionality provided by `AuthPass`, you'll need to set up a Firebase account and project. This is required because `Firebase Authentication` handles the login and registration processes. Follow these simple steps to configure Firebase for your app:
 
-### 1. Create a Firebase Project
+## Step 1. Create a Firebase Project
 - Go to [https://console.firebase.google.com](https://console.firebase.google.com/). and sign in.
 - Click on **Add Project**.
 - Enter your project name and click **Continue**.
@@ -57,7 +57,7 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
 
  ### Once your project is created, click **Continue** to open the project dashboard.
 
-## 2. Add Firebase to Your Web App
+## Step 2. Add Firebase to Your Web App
 
   ![firebase-adding-app](./public/firebase--add-app.png)
   
@@ -66,40 +66,54 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
 
 ![register-app](public/firebase--register-firebase.png)
 
-## 3. Update `firebase-config.js`
+## Step 3. Update `firebase-config.js`
 
 # IMPORTANT!
-### This part contains **sensative information!** 
-***`When creating your Github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.`***
+### This part contains **`sensative information!`** 
+### ***When creating your Github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.***
 
 ![firebase-sdk](./public/firebase--copy-SDK.png)
 
-- Firebase will provide a configuration object with API keys.
-- Copy and replace **only this information** (***seen below***) and skip or delete everything else
-- Then continue to the next step.
+  1. Firebase will provide a configuration object with API keys.
+  
+  2. Install Firebase by running this commmand
+     ```bash
+      npm install firebase
+     ```
+    
+  3. Copy **ONLY THE ***WEB APP's FIREBASE CONFIGURATION*** from the `Firebase site`
+  4. Go to `src/firebase/firebase-config.js`.
+  5. Paste the code (***like the one below***) into the identical section of your `firebase-config.js` file.
+     
 ```jsx
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-};
+// Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+      projectId: "YOUR_PROJECT_ID",
+      storageBucket: "YOUR_PROJECT_ID.appspot.com",
+      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+      appId: "YOUR_APP_ID",
+    };
 ```
 
-## 4. Enable Firebase Authentication
+## Step 4. Enable Firebase Authentication
 
-### In the Firebase console, go to **Authentication** in the left sidebar.
+### In the Firebase console, click on `Authentication`. 
 ![auth button](./public/firebase--add-auth.png)
 
-### Click on **Get Started** and enable email/password authentication. 
+### Click on `Get Started` and select `email/password`. 
 ![sign-in-options](./public/firebase--auth-options.png)
 
-### Congratulations! Your Firebase Authentication is now ready!
+### Enable `Email/Password Authenitication` and click `Save`. 
 
-#### 5. Testing the Setup
-After setting up Firebase and updating the config file, you're ready to use the login and register pages in **AuthPass**. Simply run your project, and you should be able to authenticate users through Firebase.
+
+
+
+### Congratulations! Your **Firebase Authentication** is now ready!
+
+# Testing the Setup
+After setting up Firebase and updating the config file, you're ready to use the login and register pages in **`AuthPass`**. Simply run your project, and you should be able to authenticate users through Firebase.
 
 ---
 
