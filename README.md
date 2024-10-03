@@ -8,9 +8,9 @@ AuthPass is a boiler plate set-up using Firebase Authentication providing a simp
 - **Firebase Authentication**: Seamlessly integrate Firebase Auth for user authentication.
 - **Pre-configured Pages**: Includes pre-built pages for Login and Registration.
 
-## Pre-Reqs
+## Pre-Requirements
 - **Vite**: Uses Vite as a build platform
-- **Firebase Auth**: Uses Firebase Authentication for password security. Feel free to grab any other hosting services, there are plenty of free ones!
+- **Firebase Account**: Account is free, any other chosen services are subject to cost. Set up is relatively easy. See below for additional set-up information. 
 
   
 Login Page
