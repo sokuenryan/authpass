@@ -69,8 +69,8 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
 ## 3. Update `firebase-config.js`
 
 # IMPORTANT!
-### This part contains **sensative information!** 
-***`When creating your Github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.`***
+### This part contains **`sensative information!`** 
+### ***When creating your Github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.***
 
 ![firebase-sdk](./public/firebase--copy-SDK.png)
 
@@ -93,10 +93,10 @@ const firebaseConfig = {
 ### In the Firebase console, go to **Authentication** in the left sidebar.
 ![auth button](./public/firebase--add-auth.png)
 
-### Click on **Get Started** and enable email/password authentication. 
+### Click on **Get Started** and enable `email/password` authentication. 
 ![sign-in-options](./public/firebase--auth-options.png)
 
-### Congratulations! Your `Firebase Authentication` is now ready!**
+### Congratulations! Your **Firebase Authentication** is now ready!**
 
 #### 5. Testing the Setup
 After setting up Firebase and updating the config file, you're ready to use the login and register pages in **`AuthPass`**. Simply run your project, and you should be able to authenticate users through Firebase.
