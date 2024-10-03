@@ -71,7 +71,7 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
 
 # IMPORTANT!
 ### This part contains **sensative information!** 
-***When creating your Github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.***
+***`When creating your Github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.`***
 
 ![firebase-sdk](./public/firebase--copy-SDK.png)
 
