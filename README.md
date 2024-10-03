@@ -1,7 +1,7 @@
 ![AI-Sketch](./public/AI-sketch.png)
 # AuthPass
 
-AuthPass is a boiler plate set-up using Firebase Authentication providing a simple setup for user authentication with a pre-built login and registration page.
+`AuthPass` is a boiler plate set-up using Firebase Authentication providing a simple setup for user authentication with a pre-built login and registration page.
 
 ## Features
 
@@ -45,7 +45,7 @@ AuthPass uses Vite builder and react-icons for icon use. Run the following comma
 ```
 
 # Firebase Setup
-To use the authentication functionality provided by **AuthPass**, you'll need to set up a Firebase account and project. This is required because **Firebase Authentication** handles the login and registration processes. Follow these simple steps to configure Firebase for your app:
+To use the authentication functionality provided by `AuthPass`, you'll need to set up a Firebase account and project. This is required because `Firebase Authentication` handles the login and registration processes. Follow these simple steps to configure Firebase for your app:
 
 ### Step 1. Create a Firebase Project
 - Go to [https://console.firebase.google.com](https://console.firebase.google.com/). and sign in.
