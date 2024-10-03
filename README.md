@@ -56,21 +56,21 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
   You should be at a page that looks like this:
   ![firebase-adding-app](./public/firebase--add-app.png)
 
-#### 2. Add Firebase to Your Web App
+## 2. Add Firebase to Your Web App
 - In your Firebase project, click on the `</>` (Web) icon to create a new Web app.
 - Register the app with a name of your choice, then click **Register App**.
 
 ![register-app](public/firebase--register-firebase.png)
 
-#### 3. Update `firebase-config.js`
+## 3. Update `firebase-config.js`
 - Replace the default configuration below with **your own Firebase project's credentials.**
 
 # IMPORTANT!: 
-### ***This part contains sensative information! When creating your github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.***
+`### ***This part contains sensative information! When creating your github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.***`
 ![firebase-sdk](./public/firebase--copy-SDK.png)
 
--   Firebase will provide a configuration object with API keys.
-- Copy **this information** (***see below***) and skip/delete everything else
+- Firebase will provide a configuration object with API keys.
+- Copy adn replace **only this information** (***seen below***) and skip or delete everything else
 - Then continue to the next step.
 ```jsx
 const firebaseConfig = {
@@ -83,7 +83,7 @@ const firebaseConfig = {
 };
 ```
 
-#### 4. Enable Firebase Authentication
+## 4. Enable Firebase Authentication
 
 - In the Firebase console, go to **Authentication** in the left sidebar.
 - Click on **Get Started** and enable the sign-in methods you want (e.g., Email/Password, Google).
