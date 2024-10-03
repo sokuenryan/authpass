@@ -58,10 +58,10 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
  
 - Once your project is created, click **Continue** to open the project dashboard.
 
-  You should be at a page that looks like this:
-  ![firebase-adding-app](./public/firebase--add-app.png)
-
 ## 2. Add Firebase to Your Web App
+
+  ![firebase-adding-app](./public/firebase--add-app.png)
+  
 - In your Firebase project, click on the `</>` (Web) icon to create a new Web app.
 - Register the app with a name of your choice, then click **Register App**.
 
