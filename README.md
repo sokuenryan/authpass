@@ -91,7 +91,7 @@ const firebaseConfig = {
 ## 4. Enable Firebase Authentication
 
 - In the Firebase console, go to **Authentication** in the left sidebar.
-- Click on **Get Started** and enable the sign-in methods you want (e.g., Email/Password, Google).
+- Click on **Get Started** and enable email/password authentication. 
 ![sign-in-options](./public/firebase--auth-options.png)
 
 ### Congratulations! Your Firebase Authentication is now ready!
