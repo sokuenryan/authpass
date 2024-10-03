@@ -69,7 +69,7 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
 
 ## 3. Update `firebase-config.js`
 
-# IMPORTANT!: 
+# IMPORTANT!
 ### This part contains **sensative information!** 
 ***When creating your Github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.***
 
