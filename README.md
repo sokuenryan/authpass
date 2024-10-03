@@ -14,7 +14,7 @@ Login Page
 Register Page
 ![Register](./public/register.png)
 
-# How To Set Up
+# Base Set Up
 Before you get started there are a few quick steps you need to do to make sure AuthPass works correctly. 
 
 ### Step 1: Clone the repository
@@ -39,10 +39,10 @@ AuthPass uses Vite builder and react-icons for icon use. Run the following comma
     npm install react-icons
 ```
 
-###  Step 3: Firebase Setup
+# Firebase Setup
 To use the authentication functionality provided by **AuthPass**, you'll need to set up a Firebase account and project. This is required because Firebase Authentication handles the login and registration processes. Follow these simple steps to configure Firebase for your app:
 
-#### 1. Create a Firebase Project
+### 1. Create a Firebase Project
 - Go to [https://console.firebase.google.com](https://console.firebase.google.com/). and sign in.
 - Click on **Add Project**.
 - Enter your project name and click **Continue**.
