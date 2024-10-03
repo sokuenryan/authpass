@@ -81,7 +81,7 @@ To use the authentication functionality provided by `AuthPass`, you'll need to s
       npm install firebase
      ```
     
-  3. Copy **ONLY THE ***WEB APP's FIREBASE CONFIGURATION*** on the `Firebase site`
+  3. Copy **ONLY THE ***WEB APP's FIREBASE CONFIGURATION*** from the `Firebase site`
   4. Go to `src/firebase/firebase-config.js`.
   5. Paste the code (***like the one below***) into the identical section of your `firebase-config.js` file.
      
