@@ -27,7 +27,7 @@ Before you get started there are a few quick steps you need to do to make sure A
     ```bash
       cd path/to/your/directory
     ```
-  - Copy the following and past into your terminal: 
+  - Copy the following and paste into your terminal: 
     ```bash
       git clone https://github.com/sokuenryan/AuthPass.git
     ```
