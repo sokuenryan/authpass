@@ -14,7 +14,7 @@ Login Page
 Register Page
 ![Register](./public/register.png)
 
-# Base Set Up
+# Starting Set Up
 Before you get started there are a few quick steps you need to do to make sure AuthPass works correctly. 
 
 ### Step 1: Clone the repository
