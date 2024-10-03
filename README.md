@@ -43,11 +43,14 @@ AuthPass uses Vite builder and react-icons for icon use. Run the following comma
 To use the authentication functionality provided by **AuthPass**, you'll need to set up a Firebase account and project. This is required because Firebase Authentication handles the login and registration processes. Follow these simple steps to configure Firebase for your app:
 
 #### 1. Create a Firebase Project
-- Go to the [Firebase Console](https://console.firebase.google.com/).
+- Go to [https://console.firebase.google.com](https://console.firebase.google.com/). and sign in.
 - Click on **Add Project**.
 - Enter your project name and click **Continue**.
 - Disable **Google Analytics** (if you don't need it), then click **Create Project**.
 - Once your project is created, click **Continue** to open the project dashboard.
+
+  You should be at a page that looks like this:
+  
 
 #### 2. Add Firebase to Your Web App
 - In your Firebase project, click on the `</>` (Web) icon to create a new Web app.
