@@ -90,13 +90,13 @@ const firebaseConfig = {
 
 ## Step 4. Enable Firebase Authentication
 
-### In the Firebase console, go to **Authentication** in the left sidebar.
+### In the Firebase console, go to `Authentication` in the left sidebar.
 ![auth button](./public/firebase--add-auth.png)
 
 ### Click on **Get Started** and enable `email/password` authentication. 
 ![sign-in-options](./public/firebase--auth-options.png)
 
-### Congratulations! Your **Firebase Authentication** is now ready!**
+### Congratulations! Your **Firebase Authentication** is now ready!
 
 # Testing the Setup
 After setting up Firebase and updating the config file, you're ready to use the login and register pages in **`AuthPass`**. Simply run your project, and you should be able to authenticate users through Firebase.
