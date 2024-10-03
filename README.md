@@ -102,8 +102,13 @@ To use the authentication functionality provided by `AuthPass`, you'll need to s
 ### In the Firebase console, click on `Authentication`. 
 ![auth button](./public/firebase--add-auth.png)
 
-### Click on **Get Started** and enable `email/password` authentication and click `Save`. 
+### Click on `Get Started` and select `email/password`. 
 ![sign-in-options](./public/firebase--auth-options.png)
+
+### Enable `Email/Password Authenitication` and click `Save`. 
+
+
+
 
 ### Congratulations! Your **Firebase Authentication** is now ready!
 
