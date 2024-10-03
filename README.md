@@ -44,9 +44,6 @@ AuthPass uses Vite builder and react-icons for icon use. Run the following comma
     npm install react-icons
 ```
 
-
-
-
 # Firebase Setup
 To use the authentication functionality provided by **AuthPass**, you'll need to set up a Firebase account and project. This is required because Firebase Authentication handles the login and registration processes. Follow these simple steps to configure Firebase for your app:
 
@@ -71,14 +68,15 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
 ![register-app](public/firebase--register-firebase.png)
 
 ## 3. Update `firebase-config.js`
-- Replace the default configuration below with **your own Firebase project's credentials.**
 
 # IMPORTANT!: 
-`### ***This part contains sensative information! When creating your github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.***`
+### This part contains **sensative information!** 
+***When creating your Github repo be EXTRA SURE to hide this in your .gitignore file for security and privacy reasons.***
+
 ![firebase-sdk](./public/firebase--copy-SDK.png)
 
 - Firebase will provide a configuration object with API keys.
-- Copy adn replace **only this information** (***seen below***) and skip or delete everything else
+- Copy and replace **only this information** (***seen below***) and skip or delete everything else
 - Then continue to the next step.
 ```jsx
 const firebaseConfig = {
