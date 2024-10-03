@@ -74,9 +74,13 @@ To use the authentication functionality provided by `AuthPass`, you'll need to s
 
 ![firebase-sdk](./public/firebase--copy-SDK.png)
 
-- Firebase will provide a configuration object with API keys.
-- Copy and replace **ONLY THE WEB APP FIREBASE CONFIGURATION**
-  (***seen below***)
+  1. Firebase will provide a configuration object with API keys.
+  
+  2. Install Firebase by running this commmand
+    ```bash
+    npm install firebase
+    ```
+  3 Copy and replace **ONLY THE WEB APP FIREBASE CONFIGURATION (***seen below***)**
 ```jsx
 // Your web app's Firebase configuration
     const firebaseConfig = {
