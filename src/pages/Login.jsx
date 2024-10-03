@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import { UserIcon } from "@heroicons/react/24/solid";
 import { signInWithEmailAndPassword, } from "firebase/auth";
 import { auth } from "../firebase/firebase-config";
-import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import { FaEye, FaEyeSlash, FaUser } from 'react-icons/fa';
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -66,7 +65,7 @@ const Login = () => {
                     <div className="login-btns">
                         <button type="submit" className="btn btn--dark">
                             <span>Log In</span>
-                            <UserIcon width={20} />
+                            <FaUser width={20} />
                         </button>
                     </div>
                     {error && <p className="error-message">{error}</p>}   
