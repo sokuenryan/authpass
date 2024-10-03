@@ -1,7 +1,7 @@
 ![AI-Sketch](./public/AI-sketch.png)
 # AuthPass
 
-`AuthPass` is a boiler plate set-up using Firebase Authentication providing a simple setup for user authentication with a pre-built login and registration page.
+`AuthPass` is a boiler plate set-up using `Firebase Authentication` providing a simple setup for user authentication with a pre-built login and registration page.
 
 ## Features
 
