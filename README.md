@@ -90,8 +90,10 @@ const firebaseConfig = {
 
 ## 4. Enable Firebase Authentication
 
-- In the Firebase console, go to **Authentication** in the left sidebar.
-- Click on **Get Started** and enable email/password authentication. 
+### In the Firebase console, go to **Authentication** in the left sidebar.
+![auth button](./public/firebase--add-auth.png)
+
+### Click on **Get Started** and enable email/password authentication. 
 ![sign-in-options](./public/firebase--auth-options.png)
 
 ### Congratulations! Your Firebase Authentication is now ready!
@@ -101,21 +103,11 @@ After setting up Firebase and updating the config file, you're ready to use the 
 
 ---
 
-By following these steps, you'll be able to leverage Firebase's authentication system within `AuthPass`.
+### By following these steps, you'll be able to leverage Firebase's authentication system within `AuthPass`.
 
 ### License 
-This project is licensed under the MIT License.
+***This project is licensed under the MIT License.***
 
-### Contributing
-Feel free to submit issues or pull request for improvements and new features!
-
-### Customization
-
-- **Add More Details**: You can expand on sections like Usage or Features depending on what you want to convey to users.
-- **Include Screenshots**: If you have any screenshots of the login/register pages, you can include them to help users visualize the package.
-- **Contributing Guidelines**: If you want to encourage contributions, you might add specific guidelines for contributors.
-
-Feel free to modify any parts to better suit your style or the specifics of your package! If you need more adjustments or additional sections, just let me know!
 
 
 
