@@ -52,7 +52,7 @@ To use the authentication functionality provided by **AuthPass**, you'll need to
 - Click on **Add Project**.
 - Enter your project name and click **Continue**.
 - Disable **Google Analytics** (if you don't need it), then click **Create Project**.
-- 
+  
  ![enable-analytics](./public/firebase--enable-analytics.png)
 
  ### Once your project is created, click **Continue** to open the project dashboard.
