@@ -75,17 +75,18 @@ To use the authentication functionality provided by `AuthPass`, you'll need to s
 ![firebase-sdk](./public/firebase--copy-SDK.png)
 
 - Firebase will provide a configuration object with API keys.
-- Copy and replace **only this information** (***seen below***) and skip or delete everything else
-- Then continue to the next step.
+- Copy and replace **ONLY THE WEB APP FIREBASE CONFIGURATION**
+  (***seen below***)
 ```jsx
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-};
+// Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+      projectId: "YOUR_PROJECT_ID",
+      storageBucket: "YOUR_PROJECT_ID.appspot.com",
+      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+      appId: "YOUR_APP_ID",
+    };
 ```
 
 ## Step 4. Enable Firebase Authentication
