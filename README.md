@@ -86,17 +86,33 @@ To use the authentication functionality provided by `AuthPass`, you'll need to s
   4. Go to `src/firebase/firebase-config.js`.
   5. Paste the code (***like the one below***) into the identical section of your `firebase-config.js` file.
      
-```jsx
+  ```jsx
 // Your web app's Firebase configuration
     const firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-      projectId: "YOUR_PROJECT_ID",
-      storageBucket: "YOUR_PROJECT_ID.appspot.com",
-      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-      appId: "YOUR_APP_ID",
+      apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+      authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+      projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+      storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+      messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+      appId: import.meta.env.VITE_FIREBASE_APP_ID,
     };
-```
+  ```
+Then create a .env file and ***ADD TO YOUR `.gitignore` file ASAP BEFORE COMMITING***
+copy and paste this these lines and fill in the extra areas with the API keys you can find on the firebase site.
+
+      VITE_FIREBASE_API_KEY=xxxxxxxxxxxxxx
+      
+      VITE_FIREBASE_AUTH_DOMAIN=xxxxxxxxxxx
+      
+      VITE_FIREBASE_PROJECT_ID=xxxxxxxxxxx
+      
+      VITE_FIREBASE_STORAGE_BUCKET=xxxxxxxxxxx
+      
+      VITE_FIREBASE_MESSAGING_SENDER_ID=xxxxxxxxxxx
+      
+      VITE_FIREBASE_APP_ID=xxxxxxxxxxx
+      
+      VITE_FIREBASE_MEASUREMENT_ID=xxxxxxxxxxx
 
 ## Step 4. Enable Firebase Authentication
 
