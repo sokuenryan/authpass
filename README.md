@@ -3,8 +3,9 @@
 
 `AuthPass` is a boiler plate set-up using `Firebase Authentication` providing a simple setup for user authentication with a pre-built login and registration page.
 
-## Features
+### Firebase is required for this setup
 
+## Features
 - **Firebase Authentication**: Seamlessly integrate Firebase Auth for user authentication.
 - **Pre-configured Pages**: Includes pre-built pages for Login and Registration.
 
