@@ -98,7 +98,8 @@ To use the authentication functionality provided by `AuthPass`, you'll need to s
     };
   ```
 Then create a .env file and ***ADD TO YOUR `.gitignore` file ASAP BEFORE COMMITING***
-copy and paste this these lines and fill in the extra areas with the API keys you can find on the firebase site.
+
+Then copy and paste this *these lines* and fill in the extra areas with the API keys you can find on the firebase site.
 
       VITE_FIREBASE_API_KEY=xxxxxxxxxxxxxx
       
